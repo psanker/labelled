@@ -1,5 +1,13 @@
 # labelled (development version)
 
+* `look_for()` has been redesigned:
+    - `look_for()` now returns a tibble
+    - columns with multiple values for each variable are now stored as named lists
+    - a print method has been added for a clearer presentation of results in the console
+    - use `lookfor_to_long_format()` to convert results with one row per factor level
+      and per value label
+    - use `convert_list_columns_to_character()` to convert list columns to 
+      simpler character vectors
 * new function `names_prefixed_by_values()` to get the names of a vector
   prefixed by their corresponding value
 
