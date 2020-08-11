@@ -1,5 +1,8 @@
 # labelled (development version)
 
+* new function `names_prefixed_by_values()` to get the names of a vector
+  prefixed by their corresponding value
+
 # labelled 2.5.0
 
 * new `.keep_value_labels` argument for `recode.haven_labelled()`
